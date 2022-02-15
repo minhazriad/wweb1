@@ -1,0 +1,6 @@
+--fonts name--
+lato regular
+poppin semi bold
+poppin medium
+poppin regular
+

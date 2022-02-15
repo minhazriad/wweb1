@@ -1,0 +1,243 @@
+@font-face{
+	font-family: Lato-Regular;
+	src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Poppins-Regular;
+	src: url(../fonts/poppins/Poppins-Regular.otf);
+}
+@font-face{
+	font-family: Poppins-Medium;
+	src: url(../fonts/poppins/Poppins-Medium.otf);
+}
+@font-face{
+	font-family: Poppins-SemiBold;
+	src: url(../fonts/poppins/Poppins-SemiBold.otf);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	font-weight: 400;
+}
+/*header1 start*/
+header{
+	width: 100%;
+	height: 44px;
+	background-color: #095dc7;
+}
+.wrapper{
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	width: 70%;
+}
+.social{
+	margin-left: 0;
+	width: 35%;
+	float: left;
+}
+.social ul{
+	float: left;
+	padding-left: 0;
+}
+.social ul li{
+	list-style: none;
+	float: left;
+}
+.social ul li a{
+	margin: 0 18px;
+	/*padding: 4px 1px 1px;*/
+	display: inline-block;	
+	text-decoration: none;
+	transition: .5s;
+}
+.social ul li:first-child a{
+	margin-left: 0;
+}
+.email{
+	float: right;
+	padding: 4px 0px 1px;
+	display: inline-block;
+	font-family: Lato-Regular;
+	font-size: 13px;
+	width: 25%;
+	/*border: 1px solid green;*/
+	color: white;
+}
+.email-1{
+	float: left;
+	margin-bottom: 1px;
+}
+.emailicon{
+	padding-right: 8px;
+	font-size: 13px;
+	color: white;
+}
+.e-icon{
+	margin-right: 1px;
+
+}
+.call{
+	float: right
+}
+.callicon{
+	padding-right: 8px;
+	font-size: 13px;
+	color: white;
+}
+/*header1 end*/
+
+/*header2 start*/
+.header{
+	/*border: 1px solid red;*/
+}
+.logo{
+	float: left;
+	margin-top: 26px;
+	width: 4%;
+	/*border: 1px solid;*/
+}	
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 50%;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 25px;
+	padding: 17px 0 2px;
+	font-family: Poppins-SemiBold;
+	font-size: 13px;
+	display: inline-block;
+	color: #1455a7;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #1455a7;
+}
+/*header2 end*/
+/*banner start*/
+.banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 850px;
+	background-position: center;
+
+}
+
+.banner-content {
+	margin-top: 200px;
+	margin-bottom: 30px;
+	padding-right: 2px;	
+	width: 45%;
+	color: white;
+}
+.banner-content p:first-child {
+	margin: 0 0;
+	font-family: Poppins-Medium;
+	font-weight: 500;
+    font-size: 71px;	
+    color: white;
+}
+.banner-content h1 {
+	margin: 0 0;
+	font-family: Poppins-Medium;
+	font-weight: 500;
+    font-size: 71px;
+    color: white;
+}
+.banner-content p:nth-last-child(2){
+	font-family: Poppins-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;	
+	line-height: .5px;
+}
+
+.load{
+	 margin: 100px 0px 0;
+}
+
+.btn{
+	font-family: Poppins-SemiBold;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	width: 160px;
+	height: 50px;
+	text-transform: uppercase;
+	background-color: #85af4b;
+	transition: .3s;
+	cursor: pointer;
+}
+.btn:focus{
+	outline: 0;
+}
+.btn:hover{
+	background-color: #095dc7;
+	color: white;
+}
+.btn1{
+	margin-left: 30px;
+	font-family: Poppins-SemiBold;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	width: 160px;
+	height: 49px;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 1px solid white;	
+	transition: .3s;
+	cursor: pointer;
+}
+.btn1:hover{
+	background-color: #85af4b;
+	color: white;
+}
+/*banner end*/
+.solution{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.s-content{
+	float: left;
+	width: 46%;
+	border-right: 2px solid #1455a7;
+}
+.s-content h2{
+	margin: 0 0;
+	font-family: Poppins-Medium;
+	font-weight: 500;
+    font-size: 43px;
+}
+.s-content1{
+	float: right;
+	width: 42%;
+	/*border: 1px solid;*/
+}
+.s-content1 p{
+	margin: 0 0;
+	font-family: Poppins-Regular;
+	font-weight: 400;
+	font-size: 14px;
+	color: #666666;
+}
